@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "task-automation": {
+      "command": "node",
+      "args": ["/home/solomon/Documents/Github/mcp-task-automation-server/dist/index.js"]
+    }
+  }
+}
