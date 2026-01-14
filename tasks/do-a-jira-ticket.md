@@ -36,6 +36,7 @@
 6. **Test the Active Ticket**
     Ensure that no bugs were introduced by the changes you made in step 5.
     If you find any bugs, fix them.
+    Do not build the application during this step - that will be done during step 9.
 
 7. **Review the Active Ticket**
     Look at the Active ticket again and ensure that all the tasks in the Active Ticket have been completed.
@@ -49,7 +50,8 @@
     Repeat this step until you are confident that the application works as intended and contains no bugs or unintended behavior.
 
 9. **Rebuild the Application**
-    run "npm run build" to rebuild the application.
+    Run "npm run build" to rebuild the application.
+    If the build fails, go back to step 6.
 
 10. **Commit and Push the Changes**
     Commit the changes to the new branch.
